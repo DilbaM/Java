@@ -13,7 +13,7 @@ public class Media {
         return (nota1 + nota2) / 2;
     }
 
-    public void exibirContracheque() {
+    public void exibirMedia() {
         System.out.println("Nota de " + nome);
         System.out.println("sua primeira nota foi: " + nota1);
         System.out.println("sua segunda nota foi: " + nota2);
