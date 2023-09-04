@@ -13,7 +13,7 @@ public class Nota {
         double nota2 = sc.nextDouble();
 
         Media aluno = new Media(nome, nota1, nota2);
-        aluno.exibirContracheque();
+        aluno.exibirMedia();
 
         sc.close();
     }
